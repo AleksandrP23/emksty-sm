@@ -1362,7 +1362,6 @@ div.cursors div span.visible {
     -o-transition: 0.2s;
     transition: 0.2s;
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 .header > .container {
     display: -webkit-box;
@@ -1460,34 +1459,34 @@ div.cursors div span.visible {
     color: #0071fe !important;
 }
 
-
-  .header-clear {
-    background: 0 0;
-    border-bottom: 0;
-    -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
-    color: #fff;
-  }
-  .header-clear .header-logo__desc {
-      color: rgba(255, 255, 255, 0.67);
-  }
-  .header-clear .header-nav li a {
-      color: #fff;
-  }
-  .header-clear .header-social li a .progress__circle {
-      stroke: rgba(255, 255, 255, 0.5);
-  }
-  .header-clear .header-social li a .progress__path {
-      stroke: #fff;
-  }
-  .header-clear .header-social li a img {
-      -webkit-filter: invert(100%);
-      filter: invert(100%);
-  }
-  .header-clear .header-logo__pic {
-      background-image: url(../img/svg/logo-white.svg);
-  }
-
+@media (min-width: 320px) {
+    .header-clear {
+        background: 0 0;
+        border-bottom: 0;
+        -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+        box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+        color: #fff;
+    }
+    .header-clear .header-logo__desc {
+        color: rgba(255, 255, 255, 0.67);
+    }
+    .header-clear .header-nav li a {
+        color: #fff;
+    }
+    .header-clear .header-social li a .progress__circle {
+        stroke: rgba(255, 255, 255, 0.5);
+    }
+    .header-clear .header-social li a .progress__path {
+        stroke: #fff;
+    }
+    .header-clear .header-social li a img {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .header-clear .header-logo__pic {
+        background-image: url(../img/svg/logo-white.svg);
+    }
+}
 @media (max-width: 1800px) {
     .header-logo__desc {
         display: none;
@@ -1504,7 +1503,7 @@ div.cursors div span.visible {
 
 @media (max-width: 1600px) {
     .header {
-        /* min-height: 80px; */
+        min-height: 80px;
     }
     .header-logo__pic {
         width: 108px;
@@ -1560,9 +1559,9 @@ div.cursors div span.visible {
     }
 }
 @media (max-width: 1300px) {
-    /* .header {
+    .header {
       min-height: 108px;
-    } */
+    }
     .header-logo__desc {
         display: block;
         font-size: 8px;
@@ -1715,9 +1714,8 @@ div.cursors div span.visible {
 }
 @media (max-width: 576px) {
   .header {
-    /* min-height: 95px; */
+    min-height: 95px;
     padding-top: 20px;
-    padding-bottom: 20px;
   }
     .header-opened .container {
         padding: 0;
