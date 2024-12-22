@@ -1459,7 +1459,7 @@ div.cursors div span.visible {
     color: #0071fe !important;
 }
 
-@media (min-width: 320px) {
+
     .header-clear {
         background: 0 0;
         border-bottom: 0;
@@ -1486,7 +1486,7 @@ div.cursors div span.visible {
     .header-clear .header-logo__pic {
         background-image: url(../img/svg/logo-white.svg);
     }
-}
+
 @media (max-width: 1800px) {
     .header-logo__desc {
         display: none;
