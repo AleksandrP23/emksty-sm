@@ -1350,7 +1350,7 @@ div.cursors div span.visible {
     opacity: 1;
 }
 .header {
-    /* min-height: 108px; */
+    min-height: 108px;
     background: #fff;
     border-bottom: 1px solid #eee;
     position: fixed;
